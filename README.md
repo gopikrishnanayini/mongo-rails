@@ -5,13 +5,24 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version ruby 3.1.2p20
 
-* System dependencies
+* System dependencies 
 
-* Configuration
+* Configuration 
 
 * Database creation
+(https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+brew tap mongodb/brew
+brew update
+brew install mongodb-community@7.0
+
+brew services start mongodb-community@7.0)https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+brew tap mongodb/brew
+brew update
+brew install mongodb-community@7.0
+
+brew services start mongodb-community@7.0
 
 * Database initialization
 
