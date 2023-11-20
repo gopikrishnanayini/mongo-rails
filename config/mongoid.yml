@@ -1,0 +1,24 @@
+development:
+  clients:
+    default:
+      database: mongo_rails_development
+      hosts:
+        - localhost:27017
+      options:
+        server_selection_timeout: 1
+        
+  # Configure Mongoid specific options. (optional)
+  options:
+    # Application name that is printed to the mongodb logs upon establishing
+
+
+test:
+  clients:
+    default:
+      database: mongo_rails_test
+      hosts:
+        - localhost:27017
+      options:
+        read:
+          mode: :primary
+        max_pool_size: 1
